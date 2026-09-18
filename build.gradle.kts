@@ -13,6 +13,7 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+<<<<<<< HEAD
     implementation("com.microsoft.playwright:playwright:1.49.0")
     // Правильное подключение Lombok для Gradle:
     compileOnly("org.projectlombok:lombok:1.18.48")
@@ -26,6 +27,10 @@ dependencies {
 
 
 
+=======
+}
+
+>>>>>>> d9878e3530184cca105a02422dbeb6f0b5bf945b
 tasks.test {
     useJUnitPlatform()
 }
